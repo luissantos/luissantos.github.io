@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <title>Pictures Interrail 2013 - Part 1  &middot; Luis Santos</title>
+  <title>JVM performance and optimizations  &middot; Luis Santos</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
@@ -14,23 +14,27 @@
 
 <meta name="description" content="" />
 
-<meta name="keywords" content="blog, ">
+<meta name="keywords" content="blog, java, jvm, ">
 
 
-<meta property="og:title" content="Pictures Interrail 2013 - Part 1  &middot; Luis Santos ">
+<meta property="og:title" content="JVM performance and optimizations  &middot; Luis Santos ">
 <meta property="og:site_name" content="Luis Santos"/>
-<meta property="og:url" content="http://luissantos.pt/2013/11/24/pictures-interrail-2013---part-1/" />
+<meta property="og:url" content="http://luissantos.pt/2016/02/01/jvm-performance-and-optimizations/" />
 <meta property="og:locale" content="en-EN">
 
 
 <meta property="og:type" content="article" />
 <meta property="og:description" content=""/>
-<meta property="og:article:published_time" content="2013-11-24T00:00:00Z" />
-<meta property="og:article:modified_time" content="2013-11-24T00:00:00Z" />
+<meta property="og:article:published_time" content="2016-02-01T00:00:00Z" />
+<meta property="og:article:modified_time" content="2016-02-01T00:00:00Z" />
 
   
     
 <meta property="og:article:tag" content="blog">
+    
+<meta property="og:article:tag" content="java">
+    
+<meta property="og:article:tag" content="jvm">
     
   
 
@@ -40,20 +44,20 @@
   {
     "@context": "http://schema.org",
     "@type": "Article",
-    "headline": "Pictures Interrail 2013 - Part 1",
+    "headline": "JVM performance and optimizations",
     "author": {
       "@type": "Person",
       "name": "http://profiles.google.com/+?rel=author"
     },
-    "datePublished": "2013-11-24",
+    "datePublished": "2016-02-01",
     "description": "",
-    "wordCount":  0 
+    "wordCount":  106 
   }
 </script>
 
 
 
-<link rel="canonical" href="http://luissantos.pt/2013/11/24/pictures-interrail-2013---part-1/" />
+<link rel="canonical" href="http://luissantos.pt/2016/02/01/jvm-performance-and-optimizations/" />
 
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://luissantos.pt/touch-icon-144-precomposed.png">
 <link href="http://luissantos.pt/favicon.png" rel="icon">
@@ -134,19 +138,23 @@
 
 <article id="main-content" class="container main_content single">
   <header class="container hat">
-  <h1>Pictures Interrail 2013 - Part 1
+  <h1>JVM performance and optimizations
 </h1>
 
   <div class="metas">
-<time datetime="2013-11-24">24 Nov, 2013</time>
+<time datetime="2016-02-01">1 Feb, 2016</time>
 
 
   
-  &middot; Read in about 0 min
-  &middot; (0 Words)
+  &middot; Read in about 1 min
+  &middot; (106 Words)
   <br>
   
 <a class="label" href="http://luissantos.pt/tags/blog">blog</a>
+
+<a class="label" href="http://luissantos.pt/tags/java">java</a>
+
+<a class="label" href="http://luissantos.pt/tags/jvm">jvm</a>
 
 
 
@@ -155,11 +163,53 @@
 </header>
 
   <div class="container content">
-  
+  <p>
+
+What makes Java so great is not the language itself but the platform where it runs. The JVM is an amazing peace of software that can easily out perform 
+platforms like C++ or GO.
+</p>
+<p>
+The optimizations done by the JVM allows the developer to write very high level, idiomatic code that runs as fast as C/C++.
+</p>
+<p>
+These talks show how far the JVM can go to optimize the code and busts some of the most common myths about OO Programming, specially JAVA, like:
+<ul>
+<li>Object creation is expensive</li> 
+<li>getters and setters are expensive</li>
+</ul>
+
+</p>
+
+<p>
+<h4>JVM Optimization 101</h4>
+<a href="http://www.infoq.com/presentations/jvm-optimization">
+
+<figure >
+    
+        <img src="/blog/2016/02/jvm_performance_101.jpg" />
+    
+    
+</figure>
+
+</a>
+</p>
+<p>
+<h4> Building and Tuning High Performance Java Platforms</h4>
+
 <div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
-  <iframe src="//player.vimeo.com/video/77935707" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  <iframe src="//www.youtube.com/embed/IGS-rqSjmFk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0"></iframe>
  </div>
 
+</p>
+
+<p>
+<h4> Priming Java for Speed </h4>
+
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/YVJ8LWQ470I" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0"></iframe>
+ </div>
+
+</p>
 
 </div>
 
@@ -171,15 +221,11 @@
   
 
     
-    <a class="prev" href="http://luissantos.pt/2013/08/01/to-do-a-checklist-for-your-life/" title="To Do: A Checklist for Your Life">
+    <a class="prev" href="http://luissantos.pt/2013/11/24/pictures-interrail-2013---part-1/" title="Pictures Interrail 2013 - Part 1">
       Previous
     </a>
     
 
-    
-    <a class="next" href="http://luissantos.pt/2016/02/01/jvm-performance-and-optimizations/" title="JVM performance and optimizations">
-      Next
-    </a>
     
 
   

@@ -9,8 +9,64 @@
     <managingEditor>luis@luissantos.pt (Luis Santos)</managingEditor>
     <webMaster>luis@luissantos.pt (Luis Santos)</webMaster>
     <copyright>(c) 2015 Luis Santos</copyright>
-    <lastBuildDate>Sun, 24 Nov 2013 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Feb 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://luissantos.pt/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>JVM performance and optimizations</title>
+      <link>http://luissantos.pt/2016/02/01/jvm-performance-and-optimizations/</link>
+      <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
+      <author>luis@luissantos.pt (Luis Santos)</author>
+      <guid>http://luissantos.pt/2016/02/01/jvm-performance-and-optimizations/</guid>
+      <description>&lt;p&gt;
+
+What makes Java so great is not the language itself but the platform where it runs. The JVM is an amazing peace of software that can easily out perform 
+platforms like C++ or GO.
+&lt;/p&gt;
+&lt;p&gt;
+The optimizations done by the JVM allows the developer to write very high level, idiomatic code that runs as fast as C/C++.
+&lt;/p&gt;
+&lt;p&gt;
+These talks show how far the JVM can go to optimize the code and busts some of the most common myths about OO Programming, specially JAVA, like:
+&lt;ul&gt;
+&lt;li&gt;Object creation is expensive&lt;/li&gt; 
+&lt;li&gt;getters and setters are expensive&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;h4&gt;JVM Optimization 101&lt;/h4&gt;
+&lt;a href=&#34;http://www.infoq.com/presentations/jvm-optimization&#34;&gt;
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;http://luissantos.pt/blog/2016/02/jvm_performance_101.jpg&#34; /&gt;
+    
+    
+&lt;/figure&gt;
+
+&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+&lt;h4&gt; Building and Tuning High Performance Java Platforms&lt;/h4&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/IGS-rqSjmFk&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;h4&gt; Priming Java for Speed &lt;/h4&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/YVJ8LWQ470I&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Pictures Interrail 2013 - Part 1</title>

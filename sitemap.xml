@@ -3,8 +3,13 @@
   
   <url>
     <loc>http://luissantos.pt/</loc>
-    <lastmod>2013-11-24T00:00:00+00:00</lastmod>
+    <lastmod>2016-02-01T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://luissantos.pt/2016/02/01/jvm-performance-and-optimizations/</loc>
+    <lastmod>2016-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
