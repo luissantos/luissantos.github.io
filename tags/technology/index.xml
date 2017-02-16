@@ -2,11 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>technology on Luis Santos - 12 bits to midnight</title>
-    <link>http://luissantos.pt/tags/technology/</link>
+    <link>http://luissantos.pt/tags/technology/index.xml</link>
     <description>Recent content in technology on Luis Santos - 12 bits to midnight</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 12 Nov 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://luissantos.pt/tags/technology/index.xml" rel="self" type="application/rss+xml" />
     
     <item>

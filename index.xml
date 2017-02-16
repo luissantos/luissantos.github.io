@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Luis Santos - 12 bits to midnight</title>
-    <link>http://luissantos.pt/</link>
+    <link>http://luissantos.pt/index.xml</link>
     <description>Recent content on Luis Santos - 12 bits to midnight</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
