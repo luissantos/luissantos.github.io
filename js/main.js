@@ -1,1 +1,144 @@
-!function(e){skel.breakpoints({xlarge:"(max-width: 1680px)",large:"(max-width: 1280px)",medium:"(max-width: 980px)",small:"(max-width: 736px)",xsmall:"(max-width: 480px)"}),e(function(){var i=e(window),n=e("body"),s=e("#menu"),a=e("#share-menu"),o=e("#sidebar"),l=e("#main");n.addClass("is-loading"),i.on("load",function(){window.setTimeout(function(){n.removeClass("is-loading")},100)}),e("form").placeholder(),skel.on("+medium -medium",function(){e.prioritize(".important\\28 medium\\29",skel.breakpoint("medium").active)}),skel.vars.IEVersion<=9&&l.insertAfter(o),s.appendTo(n),a.appendTo(n),s.panel({delay:500,hideOnClick:!0,hideOnEscape:!0,hideOnSwipe:!0,resetScroll:!0,resetForms:!0,side:"right",target:n,visibleClass:"is-menu-visible"}),a.panel({delay:500,hideOnClick:!0,hideOnEscape:!0,hideOnSwipe:!0,resetScroll:!0,resetForms:!0,side:"right",target:n,visibleClass:"is-share-visible"});var r=e("#search"),t=r.find("input");n.on("click",'[href="#search"]',function(e){e.preventDefault(),r.hasClass("visible")||(r[0].reset(),r.addClass("visible"),t.focus())}),t.on("keydown",function(e){27==e.keyCode&&t.blur()}).on("blur",function(){window.setTimeout(function(){r.removeClass("visible")},100)});var d=e("#intro");skel.on("+large",function(){d.prependTo(l)}).on("-large",function(){d.prependTo(o)})})}(jQuery);
+/*
+	Future Imperfect by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+(function($) {
+
+	skel.breakpoints({
+		xlarge:	'(max-width: 1680px)',
+		large:	'(max-width: 1280px)',
+		medium:	'(max-width: 980px)',
+		small:	'(max-width: 736px)',
+		xsmall:	'(max-width: 480px)'
+	});
+
+	$(function() {
+
+		var	$window = $(window),
+			$body = $('body'),
+			$menu = $('#menu'),
+			$shareMenu = $('#share-menu'),
+			$sidebar = $('#sidebar'),
+			$main = $('#main');
+
+		// Disable animations/transitions until the page has loaded.
+			$body.addClass('is-loading');
+
+			$window.on('load', function() {
+				window.setTimeout(function() {
+					$body.removeClass('is-loading');
+				}, 100);
+			});
+
+		// Fix: Placeholder polyfill.
+			$('form').placeholder();
+
+		// Prioritize "important" elements on medium.
+			skel.on('+medium -medium', function() {
+				$.prioritize(
+					'.important\\28 medium\\29',
+					skel.breakpoint('medium').active
+				);
+			});
+
+		// IE<=9: Reverse order of main and sidebar.
+			if (skel.vars.IEVersion <= 9)
+				$main.insertAfter($sidebar);
+
+		$menu.appendTo($body);
+		$shareMenu.appendTo($body);
+
+		$menu.panel({
+			delay: 500,
+			hideOnClick: true,
+			hideOnEscape: true,
+			hideOnSwipe: true,
+			resetScroll: true,
+			resetForms: true,
+			side: 'right',
+			target: $body,
+			visibleClass: 'is-menu-visible'
+		});
+
+		$shareMenu.panel({
+			delay: 500,
+			hideOnClick: true,
+			hideOnEscape: true,
+			hideOnSwipe: true,
+			resetScroll: true,
+			resetForms: true,
+			side: 'right',
+			target: $body,
+			visibleClass: 'is-share-visible'
+		});
+
+		// Menu.
+			/*$menu
+				.appendTo($body)
+				.panel({
+					delay: 500,
+					hideOnClick: true,
+					hideOnSwipe: true,
+					resetScroll: true,
+					resetForms: true,
+					side: 'right',
+					target: $body,
+					visibleClass: 'is-menu-visible'
+				});*/
+
+		// Search (header).
+			var $search = $('#search'),
+				$search_input = $search.find('input');
+
+			$body
+				.on('click', '[href="#search"]', function(event) {
+
+					event.preventDefault();
+
+					// Not visible?
+						if (!$search.hasClass('visible')) {
+
+							// Reset form.
+								$search[0].reset();
+
+							// Show.
+								$search.addClass('visible');
+
+							// Focus input.
+								$search_input.focus();
+
+						}
+
+				});
+
+			$search_input
+				.on('keydown', function(event) {
+
+					if (event.keyCode == 27)
+						$search_input.blur();
+
+				})
+				.on('blur', function() {
+					window.setTimeout(function() {
+						$search.removeClass('visible');
+					}, 100);
+				});
+
+		// Intro.
+			var $intro = $('#intro');
+
+			// Move to main on <=large, back to sidebar on >large.
+				skel
+					.on('+large', function() {
+						$intro.prependTo($main);
+					})
+					.on('-large', function() {
+						$intro.prependTo($sidebar);
+					});
+
+	});
+
+  hljs.initHighlightingOnLoad();
+})(jQuery);
