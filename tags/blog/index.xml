@@ -46,19 +46,13 @@ These talks show how far the JVM can go to optimize the code and busts some of t
 &lt;/p&gt;
 &lt;p&gt;
 &lt;h4&gt; Building and Tuning High Performance Java Platforms&lt;/h4&gt;
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/IGS-rqSjmFk&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
+&lt;div data-plyr=&#39;{ loadSprite: &#34;/css/plyr.svg&#34; }&#39; data-type=&#34;youtube&#34; data-video-id=&#34;IGS-rqSjmFk&#34;&gt;&lt;/div&gt;
 
 &lt;/p&gt;
 
 &lt;p&gt;
 &lt;h4&gt; Priming Java for Speed &lt;/h4&gt;
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/YVJ8LWQ470I&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
+&lt;div data-plyr=&#39;{ loadSprite: &#34;/css/plyr.svg&#34; }&#39; data-type=&#34;youtube&#34; data-video-id=&#34;YVJ8LWQ470I&#34;&gt;&lt;/div&gt;
 
 &lt;/p&gt;
 </description>
@@ -84,10 +78,7 @@ These talks show how far the JVM can go to optimize the code and busts some of t
       <pubDate>Sat, 20 Apr 2013 00:00:00 +0000</pubDate>
       
       <guid>https://luissantos.pt/post/2013-04-20-beirut-elephant-gun/</guid>
-      <description>
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/SWSz_PAfgNc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
+      <description>&lt;div data-plyr=&#39;{ loadSprite: &#34;/css/plyr.svg&#34; }&#39; data-type=&#34;youtube&#34; data-video-id=&#34;SWSz_PAfgNc&#34;&gt;&lt;/div&gt;
 
 
 

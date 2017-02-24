@@ -25,10 +25,7 @@ This is one of the best TED talks I&amp;rsquo;ve watched in the last few months.
 
 &lt;h1 id=&#34;video&#34;&gt;Video&lt;/h1&gt;
 
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/Mtjatz9r-Vc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
+&lt;div data-plyr=&#39;{ loadSprite: &#34;/css/plyr.svg&#34; }&#39; data-type=&#34;youtube&#34; data-video-id=&#34;Mtjatz9r-Vc&#34;&gt;&lt;/div&gt;
 
 
 &lt;p&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;
@@ -82,19 +79,13 @@ These talks show how far the JVM can go to optimize the code and busts some of t
 &lt;/p&gt;
 &lt;p&gt;
 &lt;h4&gt; Building and Tuning High Performance Java Platforms&lt;/h4&gt;
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/IGS-rqSjmFk&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
+&lt;div data-plyr=&#39;{ loadSprite: &#34;/css/plyr.svg&#34; }&#39; data-type=&#34;youtube&#34; data-video-id=&#34;IGS-rqSjmFk&#34;&gt;&lt;/div&gt;
 
 &lt;/p&gt;
 
 &lt;p&gt;
 &lt;h4&gt; Priming Java for Speed &lt;/h4&gt;
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/YVJ8LWQ470I&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
+&lt;div data-plyr=&#39;{ loadSprite: &#34;/css/plyr.svg&#34; }&#39; data-type=&#34;youtube&#34; data-video-id=&#34;YVJ8LWQ470I&#34;&gt;&lt;/div&gt;
 
 &lt;/p&gt;
 </description>
@@ -151,10 +142,7 @@ Some items i just Borrowed from other but i will keep adding my own.&lt;/p&gt;
       <pubDate>Sat, 22 Jun 2013 00:00:00 +0000</pubDate>
       
       <guid>https://luissantos.pt/post/2013-06-22-bella-lorenzo-jovanotti-cherubini/</guid>
-      <description>
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/O2RccC7UCnY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
+      <description>&lt;div data-plyr=&#39;{ loadSprite: &#34;/css/plyr.svg&#34; }&#39; data-type=&#34;youtube&#34; data-video-id=&#34;O2RccC7UCnY&#34;&gt;&lt;/div&gt;
 
 
 
@@ -215,10 +203,7 @@ Bella!&lt;/p&gt;
       <pubDate>Sun, 16 Jun 2013 00:00:00 +0000</pubDate>
       
       <guid>https://luissantos.pt/post/2013-06-16-a-cisma-valsa-do-desencontro/</guid>
-      <description>
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/AJQe8ZMI_qo&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
+      <description>&lt;div data-plyr=&#39;{ loadSprite: &#34;/css/plyr.svg&#34; }&#39; data-type=&#34;youtube&#34; data-video-id=&#34;AJQe8ZMI_qo&#34;&gt;&lt;/div&gt;
 
 
 &lt;!-- more --&gt;
@@ -246,10 +231,7 @@ Será que te vejo olhar para trás&lt;/p&gt;
       <pubDate>Mon, 03 Jun 2013 00:00:00 +0000</pubDate>
       
       <guid>https://luissantos.pt/post/2013-06-03-random-access-memories-giorgio-by-moroder/</guid>
-      <description>
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/oA1TXueZblk&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
+      <description>&lt;div data-plyr=&#39;{ loadSprite: &#34;/css/plyr.svg&#34; }&#39; data-type=&#34;youtube&#34; data-video-id=&#34;oA1TXueZblk&#34;&gt;&lt;/div&gt;
 
 
 </description>
@@ -261,10 +243,7 @@ Será que te vejo olhar para trás&lt;/p&gt;
       <pubDate>Sat, 27 Apr 2013 00:00:00 +0000</pubDate>
       
       <guid>https://luissantos.pt/post/2013-04-27-silence-is-not-the-way/</guid>
-      <description>
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/_UWCURWZlQI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
+      <description>&lt;div data-plyr=&#39;{ loadSprite: &#34;/css/plyr.svg&#34; }&#39; data-type=&#34;youtube&#34; data-video-id=&#34;_UWCURWZlQI&#34;&gt;&lt;/div&gt;
 
 
 </description>
@@ -276,10 +255,7 @@ Será que te vejo olhar para trás&lt;/p&gt;
       <pubDate>Sat, 20 Apr 2013 00:00:00 +0000</pubDate>
       
       <guid>https://luissantos.pt/post/2013-04-20-beirut-elephant-gun/</guid>
-      <description>
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/SWSz_PAfgNc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
+      <description>&lt;div data-plyr=&#39;{ loadSprite: &#34;/css/plyr.svg&#34; }&#39; data-type=&#34;youtube&#34; data-video-id=&#34;SWSz_PAfgNc&#34;&gt;&lt;/div&gt;
 
 
 
@@ -296,10 +272,7 @@ As did I, we drink to die, we drink tonight&lt;/p&gt;
       <pubDate>Sat, 20 Apr 2013 00:00:00 +0000</pubDate>
       
       <guid>https://luissantos.pt/post/2013-04-20-the-need-4-speed-the-art-of-flight-2/</guid>
-      <description>
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/oaMTSOI1Zk4&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
+      <description>&lt;div data-plyr=&#39;{ loadSprite: &#34;/css/plyr.svg&#34; }&#39; data-type=&#34;youtube&#34; data-video-id=&#34;oaMTSOI1Zk4&#34;&gt;&lt;/div&gt;
 
 
 </description>

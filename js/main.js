@@ -141,4 +141,5 @@
 	});
 
   hljs.initHighlightingOnLoad();
+	plyr.setup();
 })(jQuery);
