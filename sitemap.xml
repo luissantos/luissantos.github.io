@@ -1,9 +1,45 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://luissantos.pt/post/</loc>
+    <lastmod>2016-11-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://luissantos.pt/tags/innovation/</loc>
+    <lastmod>2016-11-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://luissantos.pt/tags/</loc>
+    <lastmod>2016-11-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://luissantos.pt/tags/technology/</loc>
+    <lastmod>2016-11-12T00:00:00+00:00</lastmod>
+  </url>
   
   <url>
     <loc>https://luissantos.pt/post/2016-11-12-the-art-of-innovation/</loc>
     <lastmod>2016-11-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://luissantos.pt/tags/blog/</loc>
+    <lastmod>2016-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://luissantos.pt/tags/java/</loc>
+    <lastmod>2016-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://luissantos.pt/tags/jvm/</loc>
+    <lastmod>2016-02-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -12,8 +48,33 @@
   </url>
   
   <url>
-    <loc>https://luissantos.pt/post/2013-11-24-interrail-2013-part-1/</loc>
-    <lastmod>2013-11-24T00:00:00+00:00</lastmod>
+    <loc>https://luissantos.pt/about/</loc>
+    <lastmod>2015-11-26T01:41:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://luissantos.pt/credits/</loc>
+    <lastmod>2015-11-26T01:41:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://luissantos.pt/</loc>
+    <lastmod>2015-11-26T01:41:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://luissantos.pt/projects/</loc>
+    <lastmod>2015-11-26T01:41:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://luissantos.pt/traveling/</loc>
+    <lastmod>2015-11-26T01:41:24+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://luissantos.pt/tags/state-of-mind/</loc>
+    <lastmod>2013-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -57,56 +118,7 @@
   </url>
   
   <url>
-    <loc>https://luissantos.pt/</loc>
-    <lastmod>2016-11-12T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://luissantos.pt/post/</loc>
-    <lastmod>2016-11-12T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://luissantos.pt/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://luissantos.pt/tags/blog/</loc>
-    <lastmod>2016-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://luissantos.pt/tags/innovation/</loc>
-    <lastmod>2016-11-12T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://luissantos.pt/tags/java/</loc>
-    <lastmod>2016-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://luissantos.pt/tags/jvm/</loc>
-    <lastmod>2016-02-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://luissantos.pt/tags/state-of-mind/</loc>
-    <lastmod>2013-08-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://luissantos.pt/tags/technology/</loc>
-    <lastmod>2016-11-12T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://luissantos.pt/categories/</loc>
   </url>
   
 </urlset>

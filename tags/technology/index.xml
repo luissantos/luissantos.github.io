@@ -1,12 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>technology on Luis Santos - 12 bits to midnight</title>
-    <link>https://luissantos.pt/tags/technology/index.xml</link>
-    <description>Recent content in technology on Luis Santos - 12 bits to midnight</description>
+    <title>technology on Luis Santos</title>
+    <link>https://luissantos.pt/tags/technology/</link>
+    <description>Recent content in technology on Luis Santos</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="https://luissantos.pt/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Nov 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://luissantos.pt/tags/technology/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>The Art of Innovation</title>
@@ -14,30 +17,7 @@
       <pubDate>Sat, 12 Nov 2016 00:00:00 +0000</pubDate>
       
       <guid>https://luissantos.pt/post/2016-11-12-the-art-of-innovation/</guid>
-      <description>
-
-&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/guykawasaki&#34;&gt;Guy Kawasaki&lt;/a&gt; is a world known technology
-evangelist.
-In this video he talks about innovation and shares his TOP 10 thoughts on it.
-This is one of the best TED talks I&amp;rsquo;ve watched in the last few months.
-&lt;br/&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;video&#34;&gt;Video&lt;/h1&gt;
-
-&lt;div data-plyr=&#39;{ loadSprite: &#34;/css/plyr.svg&#34; }&#39; data-type=&#34;youtube&#34; data-video-id=&#34;Mtjatz9r-Vc&#34;&gt;&lt;/div&gt;
-
-
-&lt;p&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;/p&gt;
-
-&lt;h1 id=&#34;slide-deck&#34;&gt;Slide deck&lt;/h1&gt;
-
-&lt;div&gt;
-  &lt;div style=&#34;width: 100%; height: 0px; position: relative; padding-bottom: 75.0019%; padding-top: 38px;&#34;&gt;
-    &lt;iframe src=&#34;https://www.slideshare.net/slideshow/embed_code/key/Ai8OES2qKyo5hu&#34; frameborder=&#34;0&#34; allowfullscreen style=&#34;top: 0px; width: 100%; height: 100%; position: absolute;&#34;&gt;&lt;/iframe&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-</description>
+      <description>Guy Kawasaki is a world known technology evangelist. In this video he talks about innovation and shares his TOP 10 thoughts on it. This is one of the best TED talks I&amp;rsquo;ve watched in the last few months. Video   Slide deck     </description>
     </item>
     
   </channel>
