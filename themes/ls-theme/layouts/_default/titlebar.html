@@ -1,0 +1,61 @@
+<!-- Titlebar
+     ================================================== -->
+<div id="titlebar" class="single-post-titlebar" {{ if .Page.IsHome }}style="margin-bottom: 0px;"{{ end }} >
+	  <div class="container">
+		    <div class="row">
+			      <div class="col-md-12">
+
+		            {{ if not .Page.IsHome }}
+
+                <!-- Title -->
+                {{ if $.Scratch.Get "h1" }}
+                <h1>{{ .Title }}</h1>
+                {{ $.Scratch.Set "h1" false }}
+                {{ else }}
+                <h2>{{humanize .Title }}</h2>
+                {{ end }}
+
+
+               
+                {{ if (eq .Page.Type "post") }}
+
+                {{ if .Site.Params.orderByPublishDate }}
+                {{ $.Scratch.Set "dateType" .PublishDate }}
+                {{ else }}
+                {{ $.Scratch.Set "dateType" .Date }}
+                {{ end }}
+
+
+				        <!-- Meta Tags -->
+				        <div class="meta-tags">
+					          <span>
+                        <time datetime='{{ ($.Scratch.Get "dateType").Format "2006-01-02" }}'>
+                            {{ ($.Scratch.Get "dateType").Format "January 2, 2006" }}
+                        </time>
+                    </span>
+
+				        </div>
+                {{ end }}
+
+
+
+
+				        <!-- Nav -->
+				        <ul id="portfolio-nav">
+                    {{ if .NextInSection }}
+					          <li class="next"><a href="{{ .NextInSection.Permalink }}" class="tooltip left" title="Next Post"><i class="sl sl-icon-arrow-right"></i></a></li>
+                    {{ end }}
+                    {{ if .PrevInSection }}
+					          <li class="prev"><a href="{{ .PrevInSection.Permalink }}" class="tooltip right" title="Previous Posts"><i class="sl sl-icon-arrow-left"></i></a></li>
+                    {{ end }}
+				        </ul>
+
+                {{ end }}
+
+			      </div>
+		    </div>
+	  </div>
+</div>
+
+
+

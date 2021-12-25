@@ -1,0 +1,33 @@
+<div class="isotope-item">
+		<!-- Post -->
+		<div class="post-container">
+				<div class="post-img"><a href="{{ .Permalink }}" class="img-hover"><img src="{{ partial "header-picture" . | chomp  }}"  alt=""></a></div>
+
+				<div class="post-content">
+
+            {{ if .Site.Params.orderByPublishDate }}
+                {{ $.Scratch.Set "dateType" .PublishDate }}
+            {{ else }}
+                {{ $.Scratch.Set "dateType" .Date }}
+            {{ end }}
+
+						<!-- Meta -->
+						<div class="meta-tags">
+                <span>
+                    <time datetime='{{ ($.Scratch.Get "dateType").Format "2006-01-02" }}'>
+                        {{ ($.Scratch.Get "dateType").Format "January 2, 2006" }}
+                    </time>
+                </span>
+							  <span><a href="#">4 Comments</a></span>
+						</div>
+
+
+
+						<a href="{{ .Permalink }}"><h3>{{ .Title }}</h3></a>
+						<p>{{ .Summary }}</p>
+            <a href="{{ .Permalink }}" style="width: 100%;" class="button center" >read more</a>
+				</div>
+
+		</div>
+</div>
+

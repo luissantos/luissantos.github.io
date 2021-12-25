@@ -1,0 +1,15 @@
+<!-- Post Navigation -->
+<ul id="posts-nav" class="margin-top-20 margin-bottom-40">
+    {{ if .NextInSection }}
+    <li class="next-post">
+				<a href="{{ .NextInSection.Permalink }}"><span>Next Post</span>{{ .NextInSection.Title }}</a>
+		</li>
+    {{ end }}
+
+    {{ if .PrevInSection }}
+		<li class="prev-post">
+				<a href="{{ .PrevInSection.Permalink }}"><span>Previous Post</span>{{ .PrevInSection.Title }}</a>
+		</li>
+    {{ end }}
+</ul>
+

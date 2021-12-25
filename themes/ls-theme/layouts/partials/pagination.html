@@ -1,0 +1,33 @@
+<!-- Pagination -->
+<div class="row">
+		<div class="col-md-12">
+				<!-- Pagination -->
+				<div class="pagination-container margin-top-30 margin-bottom-0">
+					  <nav class="pagination">
+						    <ul>
+                    {{ if .HasPrev }}
+                    <li>
+                        <a href="{{ .Prev.URL}}">
+                            <i class="sl sl-icon-arrow-left"></i>
+                        </a>
+                    </li>
+                    {{ end }}
+                    {{ $currentPage := .PageNumber }}
+                    {{ range .Pagers }}
+                    <li><a
+                           {{ if eq .PageNumber $currentPage }}class="current-page" {{ end }}
+                           href="{{ .URL }}">{{ .PageNumber }}</a></li>
+                    {{ end }}
+                    {{ if .HasNext }}
+                    <li>
+                        <a href="{{ .Next.URL}}">
+                            <i class="sl sl-icon-arrow-right"></i>
+                        </a>
+                    </li>
+                    {{ end }}
+							  </ul>
+					  </nav>
+				</div>
+		</div>
+</div>
+<!-- Pagination / End -->

@@ -1,0 +1,30 @@
+{{ partial "header" . }}
+
+<div class="clearfix"></div>
+
+<div class="container">
+	  <div class="col-md-9  extra-gutter-right-35px">
+
+		    <!-- Projects -->
+		    <div class="gutter-30px isotope-two-cols isotope-wrapper blog-wrapper">
+
+			      <div class="isotope-sizer"></div>
+            {{ $paginator := .Paginate ( where .Site.RegularPages ".Params.tags" "intersect" (slice .Params.title) ) 4 }}
+            {{ range $paginator.Pages }}
+            {{ .Render "content-list" }}
+            {{ end }}
+		    </div>
+		    <!-- Isotope Wrapper / End -->
+
+		    {{ partial "pagination" $paginator }}
+
+
+	  </div>
+
+    {{ partial "sidebar" . }}
+</div>
+
+
+<div class="clearfix"></div>
+
+{{ partial "footer" . }}

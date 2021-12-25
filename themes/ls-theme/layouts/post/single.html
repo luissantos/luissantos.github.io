@@ -1,0 +1,35 @@
+{{/* -*- engine:go -*- */}}
+{{ partial "header" . }}
+
+<!-- Content ================================================== -->
+<div class="container">
+    <div class="row">
+
+        <!-- Post Content -->
+        <div class="col-md-9 col extra-gutter-right-30px">
+            <div class="single-post-content">
+                {{ .Content }}
+            </div>
+
+            {{ .Render "social" }}
+
+            <div class="clearfix"></div>
+
+            {{ .Render "prev-next" }}
+
+            {{ .Render "author" }}
+
+            <div class="clearfix"></div>
+
+            <div class="margin-top-50"></div>
+
+            {{ .Render "reviews" }}
+        </div>
+
+        {{ partial "sidebar" . }}
+
+    </div>
+</div>
+<!-- Container / End -->
+
+{{ partial "footer" . }}

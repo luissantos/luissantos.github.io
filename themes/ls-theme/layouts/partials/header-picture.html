@@ -1,0 +1,1 @@
+{{ with .Params.image }}/{{ . }}{{ else }}{{ if in .Params.tags "state of mind" }}/headers/headphones.jpg{{ else }}/headers/standard.jpg{{ end }}{{ end }}

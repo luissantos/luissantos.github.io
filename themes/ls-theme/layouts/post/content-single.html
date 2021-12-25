@@ -1,0 +1,29 @@
+<article class="post">
+    {{ .Render "header" }}
+
+
+    {{ .Render "featured" }}
+    {{ .Content }}
+
+
+
+    <footer>
+        {{ .Render "footer-category" }}
+    </footer>
+
+    <section id="social-share">
+        <ul class="icons">
+            {{ partial "share-links" . }}
+        </ul>
+    </section>
+</article>
+{{ .Render "prev-next" }}
+
+3asdasds
+{{ if ne .Site.DisqusShortname "" }}
+    {{ if not (in (printf "%#v" .Site.BaseURL) "localhost2") }}
+        <article class="post">
+            {{ template "_internal/disqus.html" . }}
+        </article>
+    {{ end }}
+{{ end }}
