@@ -40,6 +40,7 @@
 
 
 
+                {{ if (ne .Page.Type "page") }}
 				        <!-- Nav -->
 				        <ul id="portfolio-nav">
                     {{ if .NextInSection }}
@@ -49,6 +50,8 @@
 					          <li class="prev"><a href="{{ .PrevInSection.Permalink }}" class="tooltip right" title="Previous Posts"><i class="sl sl-icon-arrow-left"></i></a></li>
                     {{ end }}
 				        </ul>
+                {{ end }}
+
 
                 {{ end }}
 

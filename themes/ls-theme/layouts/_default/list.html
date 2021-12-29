@@ -8,8 +8,8 @@
 		    <!-- Projects -->
 		    <div class="gutter-30px isotope-two-cols isotope-wrapper blog-wrapper">
 
-			      <div class="isotope-sizer"></div>
-            {{ $paginator := .Paginate (where .Pages "Type" "post") 4  }}
+	                <div class="isotope-sizer"></div>
+            {{ $paginator := .Paginate (where .Pages "Type" "in" site.Params.mainSections  ) 4  }}
             {{ range $paginator.Pages }}
             {{ .Render "content-list" }}
             {{ end }}

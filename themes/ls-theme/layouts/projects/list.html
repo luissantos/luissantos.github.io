@@ -1,0 +1,22 @@
+{{ partial "header" . }}
+
+<div class="clearfix"></div>
+
+<div class="container">
+  <div class="projects gutter style-4" style="position: relative; min-height: 500px">
+    {{ $paginator := .Paginate (where .Pages "Type" "in" site.Params.mainSections ) 4 }}
+    {{ range $paginator.Pages }}
+    {{ .Render "content-list" }}
+    {{ end }}
+  </div>
+
+  <div class="clearfix"></div>
+  <br />
+  <br />
+</div>
+
+<div class="clearfix"></div>
+
+<div class="margin-top-55"></div>
+
+{{ partial "footer" . }}

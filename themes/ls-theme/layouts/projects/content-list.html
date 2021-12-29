@@ -1,0 +1,11 @@
+<div class="isotope-item identity print" style="position: absolute; left: 0px; top: 0px;">
+	<a href="{{ .Permalink }}">
+		<img src="{{ partial " header-picture" . | chomp }}" alt="">
+		<div class="overlay">
+			<div class="overlay-content">
+				<h4>{{ .Title }}</h4>
+				<span>{{ .Summary }}</span>
+			</div>
+		</div>
+	</a>
+</div>

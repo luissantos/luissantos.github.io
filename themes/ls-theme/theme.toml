@@ -3,8 +3,8 @@
 
 name = "Luis Santos custom theme"
 license = "MIT"
-description = "Ported theme of HTML5 UP, future imperfect, with some extra goodies"
-homepage = "https://github.com/jpescador/hugo-future-imperfect"
+description = ""
+homepage = ""
 tags = ["blog", "responsive", "font awesome", "highlight.js"]
 features = ["html5", "css3", "responsive"]
 min_version = 0.15

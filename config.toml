@@ -20,6 +20,7 @@ googleAnalytics = "UA-38311570-1"
     # set this to the section name if section is not post
     viewMorePostLink     = "/post/"
 
+    mainSections = ['post', 'projects']
 # Optional Params
     categoriesByCount    = true
     includeReadingTime   = true
