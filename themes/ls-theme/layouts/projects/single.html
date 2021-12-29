@@ -1,0 +1,55 @@
+{{/* -*- engine:go -*- */}}
+{{ partial "header" . }}
+
+<!-- Content ================================================== -->
+<div class="container">
+  <div class="row">
+    <!-- Post Content -->
+    <div class="col-md-9 col extra-gutter-right-30px">
+
+      <h1>{{ .Title }}</h1>
+      <div class="single-post-content">{{ .Content }}</div>
+
+      {{ .Render "social" }}
+
+      <div class="clearfix"></div>
+
+      {{ .Render "prev-next" }} {{ .Render "author" }}
+
+      <div class="clearfix"></div>
+
+      <div class="margin-top-50"></div>
+
+      {{ .Render "reviews" }}
+    </div>
+
+    <!-- Widgets -->
+    <div class="col-md-3">
+        
+      <!-- Categories -->
+      <div class="widget margin-bottom-20">
+        <h4>Details</h4>
+        <dl>
+          {{ with .Params.Source }}
+          <dt>Source</dt>
+          <dd><a href="{{ . }}">{{ . }}</a></dd>  
+          {{ end }} 
+          {{ with .Params.License }}
+            <dt>License</dt>
+            <dd>{{ . }}</dd>  
+          {{ end }}
+          
+        </dl>
+      </div>
+
+      {{ partial "social.html" . }}
+    
+      <div class="margin-bottom-40"></div>
+
+    </div>
+
+  </div>
+</div>
+<!-- Container / End -->
+
+{{ partial "footer" . }}

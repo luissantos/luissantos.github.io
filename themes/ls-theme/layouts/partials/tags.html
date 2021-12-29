@@ -1,0 +1,23 @@
+{{ with .Site.Taxonomies.categories }}
+<!-- Categories -->
+<div class="widget margin-bottom-60">
+    <h4>Categories</h4>
+    <ul class="list-links">
+        {{ range . }}
+        <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a></li>
+        {{ end }}
+    </ul>
+</div>
+{{ end }}
+
+{{ with .Site.Taxonomies.tags }}
+<!-- Tags -->
+<div class="widget">
+    <h4>Tags</h4>
+    <nav class="tags">
+        {{ range . }}
+        <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
+        {{ end }}
+    </nav>
+</div>
+{{ end }}
